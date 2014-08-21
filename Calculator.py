@@ -1,14 +1,14 @@
 print ('Hello!')
 operation = input ('What operation would you like completed? + - * /')
-if operation == +
-
+if operation == ('+')
+print (operation)
 else
-    if operation == -
-
+    if operation == ('-')
+    print (operation)
     else
-        if operation == *
-
+        if operation == ('*')
+        print (operation)
         else
-            if operation == /
-            
-              else print (''sorry, I can't
+            if operation == ('/')
+            print  (operation)   
+              else print ('''sorry, I can't do that''')
