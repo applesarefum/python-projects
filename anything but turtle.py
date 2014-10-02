@@ -1,7 +1,7 @@
 from turtle import Turtle
 from random import random
 def random_color():
-    return (random(),random(),random())
+    return(random(),random(),random())
 #lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel
 senora_sad_burritto = Turtle()
 senora_sad_burritto.pensize(random())
@@ -48,7 +48,7 @@ def spirograph():
             jason.color(random_color)
             jason.forward(100)
             jason.right(90)
-            jason.left(5)
+        jason.left(5)
 #lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel
 def sadburritto():
     for count in range(3):
