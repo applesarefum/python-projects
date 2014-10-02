@@ -45,7 +45,7 @@ def saoturtle():
 def spirograph():
     while True:
         for count in range(4):
-            jason.color(random_color)
+            jason.pencolor(random_color())
             jason.forward(100)
             jason.right(90)
         jason.left(5)
