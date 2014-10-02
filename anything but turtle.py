@@ -48,7 +48,7 @@ def spirograph():
             jason.color(random_color)
             jason.forward(100)
             jason.right(90)
-        jason.left(5)
+            jason.left(5)
 #lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel lel
 def sadburritto():
     for count in range(3):
