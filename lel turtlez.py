@@ -4,12 +4,12 @@ def random_color():
     return(random(),random(),random())
 albuquerque = Turtle()
 albuquerque.pensize(1)
-lel=5
+lel=1
 
 while True:
      for count in range(4):
         albuquerque.pencolor(random_color())
         albuquerque.forward(lel)
         albuquerque.right(90)    
-     albuquerque.right(1)
-     lel=lel+5
+     albuquerque.right(10)
+     lel=lel+1
