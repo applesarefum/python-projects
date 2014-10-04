@@ -4,8 +4,8 @@ def random_coleor():
     return(random(),random(),random())
 le = Turtle()
 name=input('What is your name')
-lecoleor=input('What color do you want your name in? (For a random color, put "random_coleor()"')
-lesize=input('How thick shouled the les be? for a random thickness, put "random()"')
+lecoleor=input('What color do you want your name in? (For a random color, put "random_color()"')
+lesize=input('How thick should the letters be? for a random thickness, put "random()"')
 le.pencoleor(lecoleor)
 le.pensize(lesize)
 def a():
@@ -63,4 +63,19 @@ def d():
     le.left(180)
     le.forward()
 def e():
-    
+    le.left(90)
+    le.forward()
+    le.right(90)
+    le.forward()
+    le.left(180)
+    le.forward()
+    le.left(90)
+    le.forward()
+    le.left(90)
+    le.forward()
+    le.left(180)
+    le.forward()
+    le.left(90)
+    le.
+    le.
+    le.
