@@ -1,5 +1,6 @@
+swog = True
 def sweg():
-    if swog == 0:
+    if swog == True:
         input("you don't understand what you have done, mortal")
         input("you have unleashed power not meant for this world")
         input("good luck...")
@@ -13,7 +14,7 @@ def sweg():
         input("...")
         input("...")
         input("...")
-        swog = 1
+        swog = False
     else:
         input("sweg")
         sweg()

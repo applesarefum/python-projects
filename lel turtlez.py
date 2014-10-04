@@ -11,5 +11,5 @@ while True:
         albuquerque.pencolor(random_color())
         albuquerque.forward(lel)
         albuquerque.right(90)    
-     albuquerque.right(10)
+     albuquerque.right(70)
      lel=lel+1
