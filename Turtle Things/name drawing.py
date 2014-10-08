@@ -1,6 +1,6 @@
-from turtlee import Turtle
+from turtle import Turtle
 from random import random
-def random_coleor():
+def random_color():
     return(random(),random(),random())
 le = Turtle()
 name=input('What is your name')
