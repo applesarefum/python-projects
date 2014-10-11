@@ -1,6 +1,5 @@
 from turtle import Turtle
 from random import random
-rotate=input('what is a number?')
 stevenjr = Turtle()
 stevenjr.pensize(1)
 def random_color():
@@ -9,56 +8,56 @@ def random_color():
 while True:
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(100)
-        stevenjr.right(90)    
-    stevenjr.right(rotate)
+        stevenjr.forward(10)
+        stevenjr.right(90)   
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(110)
+        stevenjr.forward(11)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(120)
+        stevenjr.forward(12)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(130)
+        stevenjr.forward(13)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(140)
+        stevenjr.forward(14)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(150)
+        stevenjr.forward(15)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(160)
+        stevenjr.forward(16)
         stevenjr.right(90)    
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(170)
+        stevenjr.forward(17)
         stevenjr.right(90)
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(180)
+        stevenjr.forward(18)
         stevenjr.right(90)
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(190)
+        stevenjr.forward(19)
         stevenjr.right(90)
-    stevenjr.right(rotate)
+    stevenjr.right(70)
     for count in range(4):
         stevenjr.pencolor(random_color())
-        stevenjr.forward(200)
+        stevenjr.forward(20)
         stevenjr.right(90)
-    stevenjr.right(rotate)
+    stevenjr.right(70)
