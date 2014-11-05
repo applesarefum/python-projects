@@ -3,12 +3,12 @@ jerome = Turtle()
 jerome.pensize(1)
 #V1
 def potato():
-    for count in range(100):
+    for count in range(10000):
         jerome.forward(count)
         jerome.right(100)
 #V2
 def banana():
-    for count in range(100):
+    for count in range(10000):
         jerome.forward(count)
         jerome.right(90)
 #V3
