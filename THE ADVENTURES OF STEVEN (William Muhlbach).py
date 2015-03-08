@@ -5,15 +5,19 @@ def namelol():
     if name == "STEVEN":
         input("Yes, yes it is.")
     elif name == "BUTTCHEACKS":
-        input("JACK MARTIN 2014 JACKSON 5 SAWWWGGGG")
+        input("JACK MARTIN 2014 SAWWWGGGG")
         input("sweg")
         namelol()
-    elif name != "STEVEN":
+        print("buttcheacks")
+    else:
         input("No")
         input("Your name is Steven")
         input('The name of the game is "THE ADVENTURES OF STEVEN"')
         input("What other name would you have?")
         input("Jason?")
+    name="Steven"
 #-------------------------THE REALM OF HAIR--------------------------------
 def realmofhair():
-    
+    pass    
+################################GAME#######################################
+namelol()
