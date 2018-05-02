@@ -23,7 +23,6 @@ def rps():
     if plch==aich:
         print('You both chose '+plch+'!')
         print("It's a draw!")
-        pa()
     else:
         print('You chose '+plch+'!')
         print('Your opponent chose '+aich+'!')
