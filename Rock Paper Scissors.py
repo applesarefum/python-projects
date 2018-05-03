@@ -11,15 +11,20 @@ def pa():
             print("Sorry, didn't get that")
             pa()
 
+def getplch():
+   #plch = Player Choice
+    plch=input('What do you pick? ').strip().title()
+    if plch not in moves:
+        print("I don't know about that move...")
+    getplch()
+
 print("Welcome to Rock, Paper, Scissors!")
 
 def rps():
     print('Rock, Paper, Scissors, Shoot!')
-   #plch = Player Choice
-    plch=input('What do you pick? ').strip().title()
+    getplch()
    #aich = AI Choice
     aich=random.choice(moves)
-
     if plch==aich:
         print('You both chose '+plch+'!')
         print("It's a draw!")
@@ -43,9 +48,8 @@ def rps():
             print('You win!')
         elif aich=='Rock':
             print('You lose!')
-#if plch!=moves do ONLY print(idk message)
     else:
-        print("I don't know that one")
-        rps()
+        print('how did you even manage this? this is literally impossible')
+        exit()
     pa()
 rps()
